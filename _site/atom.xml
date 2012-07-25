@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Yuanyi Zhang</title>
+ <link href="http://yzhang.github.com/atom.xml" rel="self"/>
+ <link href="http://yzhang.github.com/"/>
+ <updated>2012-07-25T16:04:33+08:00</updated>
+ <id>http://yzhang.github.com/</id>
+ <author>
+   <name>Yuanyi Zhang</name>
+   <email>y@mockingbot.com</email>
+ </author>
+
+ 
+ 
+</feed>
