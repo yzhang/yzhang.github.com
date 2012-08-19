@@ -1,0 +1,195 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+*
+  margin: 0
+  padding: 0
+
+html
+  font-size: 100%
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  background: #F8F8F8
+
+body
+  margin: 0
+  font-family: "Gill Sans","Gill Sans MT", sans-serif
+  font-size: 13px
+  line-height: 18px
+  color: #333333
+  background-color: #F8F8F8
+
+  header
+    position: fixed
+    top: 0
+    left: 50%
+    margin-left: -390px
+    width: 780px
+    height: 110px
+    padding: 8px 40px 0 50px
+    background: #F8F8F8
+    z-index: 2
+    box-sizing: border-box
+
+    .line
+      position: fixed
+      left: 50%
+      top: 80px
+      width: 780px
+      margin-left: -390px
+      height: 0
+      border-bottom: 1px solid #333
+      z-index: 1
+
+    #profile
+      position: absolute
+      left: 170px
+      width: 100px
+      height: 100px
+      border-radius: 100px
+      background: gray
+      z-index: 2
+      border: 1px solid black
+
+    #about
+      position: absolute
+      left: 16px
+      top:  65px
+      border: 1px solid white
+      margin: 0 22px
+      height: 30px
+      line-height: 30px
+      background: white
+      border: 1px solid #333
+      border-radius: 8px
+      padding: 0 10px
+      z-index: 2
+      font-family: "Gill Sans","Gill Sans MT", sans-serif
+      font-size: 14px
+
+    #profile img
+      width: 100px
+      height: 100px
+      border-radius: 100px
+      z-index: 3
+
+    nav ul
+      position: absolute
+      left: 328px
+      list-style: none
+      top: 65px
+      z-index: 2
+
+      li
+        float: left
+        border: 1px solid white
+        margin: 0 23px
+        height: 30px
+        line-height: 30px
+        background: white
+        border: 1px solid #333
+        border-radius: 8px
+        padding: 0 10px
+        font-family: "Gill Sans","Gill Sans MT", sans-serif
+        font-size: 14px
+
+  #main
+    width: 780px
+    margin-top: 110px
+    margin-left: auto
+    margin-right: auto
+    background-color: #F8F8F8
+    border-bottom: none
+    
+    aside
+      width: 200px
+      position: fixed
+      top: 110px
+      height: 100%
+      padding: 0px 20px
+      box-sizing: border-box
+      background: #F8F8F8
+      p
+        line-height: 28px
+        font-size: 18px
+        padding: 20px 0
+  
+      #links
+        position: fixed
+        bottom: 10px
+
+  #content
+    width: 580px
+    margin-left: 200px
+    border-right: none
+
+    article
+      width: 560px
+      margin: 0 auto
+      min-height: 60px
+      margin-left: 20px
+      border-left: 1px solid #333
+      padding: 0
+
+      &:first-child
+        padding-top: 10px
+      &:last-child
+        padding-bottom: 20px
+      .icon
+        position: absolute
+        margin-left: -22px
+        margin-top: 10px
+        width: 40px
+        height: 40px
+        border-radius: 100%
+        background: white
+        border: 1px solid #333
+        z-index: 1
+        float: left
+        img
+          margin: 3px 1px 1px 4px
+          border-radius: 100%
+          box-shadow: none
+          border: none
+      .date
+        position: absolute
+        line-height: 42px
+        height: 42px
+        margin-top: 11px
+        margin-left: 21px
+        float: left
+        width: 110px
+        color: gray
+        text-align: center
+        z-index: 1
+
+      .title
+        line-height: 42px
+        height: 42px
+        margin-top: 10px
+        margin-left: 131px
+        float: left
+        width: 400px
+        font-size: 18px
+      .excerpt
+        margin-top: 10px
+        margin-bottom: 0px
+        margin-left: 131px
+        float: left
+        width: 400px
+        color: #555
+        font-weight: lighter
+        font-size: 16px
+        p
+          margin: 10px 0
+        img
+          width: 400px
+          border-radius: 10px
+          box-sizing: border-box
+          padding: 0
+          margin: 10px 0
+.clear
+  clear: both
+.toggle-sidebar
+  display: none
+a
+  color: #333
