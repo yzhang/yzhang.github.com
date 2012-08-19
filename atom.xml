@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://yzhang.github.com/atom.xml" rel="self"/>
   <link href="http://yzhang.github.com/"/>
-  <updated>2012-08-08T14:36:20+08:00</updated>
+  <updated>2012-08-19T21:46:07+08:00</updated>
   <id>http://yzhang.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,11 +14,46 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Demo work]]></title>
+    <link href="http://yzhang.github.com/blog/2012/08/19/test-work/"/>
+    <updated>2012-08-19T19:26:00+08:00</updated>
+    <id>http://yzhang.github.com/blog/2012/08/19/test-work</id>
+    <content type="html"><![CDATA[<p>A work for demo</p>
+
+
+<p>
+  <img src="images/wudu.jpg">
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Placeholder project]]></title>
+    <link href="http://yzhang.github.com/blog/2012/08/19/test-project/"/>
+    <updated>2012-08-19T19:26:00+08:00</updated>
+    <id>http://yzhang.github.com/blog/2012/08/19/test-project</id>
+    <content type="html"><![CDATA[<p>This should be a cool project, will be developed soon.</p>
+
+<!--more-->
+
+
+<p>More description</p>
+
+
+<p></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Hello Octopress!]]></title>
     <link href="http://yzhang.github.com/blog/2012/08/08/hello-octopress/"/>
     <updated>2012-08-08T14:31:00+08:00</updated>
     <id>http://yzhang.github.com/blog/2012/08/08/hello-octopress</id>
-    <content type="html"><![CDATA[<p>This is my first Octopress post, just for testing.</p>
+    <content type="html"><![CDATA[<p>This is my first Octopress post, just for demo.</p>
+
+<!--more-->
+
 ]]></content>
   </entry>
   
