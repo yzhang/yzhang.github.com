@@ -16,7 +16,12 @@
       </div>
     </aside>
     <div id="content">
-      {{ content | expand_urls: root_url }}
+      <div id="articles">
+        {{ content | expand_urls: root_url }}
+      </div>
+      <footer class="layout">
+        This site is proudly powered by <a href="http://octopress.org">Octopress</a>. Theme design:  <a href="https://github.com/yzhang/yzhang.github.com">yuanyiz</a>
+      </footer>
     </div>
   </div>
 

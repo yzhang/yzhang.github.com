@@ -9,5 +9,5 @@ icon: w
 
 <p>A work for demo</p>
 <p>
-  <img src="images/wudu.jpg">
+  <img src="/images/wudu.jpg">
 </p>

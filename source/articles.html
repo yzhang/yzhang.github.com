@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign index = true %}
+{% for post in site.posts %}
+  {% if post.icon == 'a' %}
+    {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endif %}
+{% endfor %}
+<div class="clear"></div>
