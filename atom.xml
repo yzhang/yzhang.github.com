@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Yuanyiz]]></title>
   <link href="http://yzhang.github.com/atom.xml" rel="self"/>
   <link href="http://yzhang.github.com/"/>
-  <updated>2012-08-20T13:28:40+08:00</updated>
+  <updated>2012-08-24T00:32:34+08:00</updated>
   <id>http://yzhang.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[yuanyiz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -22,7 +22,7 @@
 
 
 <p>
-  <img src="images/wudu.jpg">
+  <img src="http://yzhang.github.com/images/wudu.jpg">
 </p>
 
 ]]></content>
