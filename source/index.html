@@ -3,10 +3,6 @@ layout: default
 ---
 
 {% assign index = true %}
-{% for post in paginator.posts %}
-{% assign content = post.content %}
-  <article>
+{% for post in site.posts %}
     {% include article.html %}
-  </article>
 {% endfor %}
-<div class="clear"></div>
