@@ -1,17 +1,32 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body class="no-sidebar collapse-sidebar sidebar-footer">
+  <!--
   <header role="banner">{% include header.html %}</header>
+  -->
   <div id="main">
+    <div class="user-timeline-marker"></div>
     <aside>
-      <div id="intro">
-        <p class="name">A coder like running, <br> a runner like&nbsp; coding.</p>
+      <div class="profile">
+        <a href="/"><img src="/images/morbo.png"></a>
       </div>
       <div id="links">
         <p>
-          <a href='#'>github.com/yzhang</a><br>
-          <a href='#'>twitter.com/yuanyiz</a><br>
-          <a href='#'>zhangyuanyi@gmail</a>
+          <a href='#'>
+            <span>articles</span>
+          </a>
+          <br>
+          <a href='#'>
+            <span>projects</span>
+          </a>
+          <br>
+          <a href='#'>
+            <span>github</span>
+          </a>
+          <br>
+          <a href='#'>
+            <span>gmail</span>
+          </a>
         </p>
       </div>
     </aside>
