@@ -4,7 +4,7 @@ title: "Demo work"
 date: 2012-08-19 19:26
 comments: true
 categories: 
-icon: w
+icon: p
 ---
 
 <p>

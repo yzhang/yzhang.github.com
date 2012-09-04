@@ -4,24 +4,23 @@ single: true
 ---
 
 <div id="post">
-  <article>
-    {% include article.html %}
-    <footer>
-      {% unless true || page.sharing == false %}
-        {% include post/sharing.html %}
-      {% endunless %}
-      {% if false %}
-      <p class="meta">
-        {% if page.previous.url %}
-          <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
-        {% endif %}
-      </p>
+  {% include article.html %}
+  <footer>
+    {% unless true || page.sharing == false %}
+      {% include post/sharing.html %}
+    {% endunless %}
+    {% if false %}
+    <p class="meta">
+      {% if page.previous.url %}
+        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
       {% endif %}
-    </footer>
-  </article>
+      {% if page.next.url %}
+        <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
+    </p>
+    {% endif %}
+  </footer>
+
   {% if site.disqus_short_name and page.comments == true %}
     <section>
       <h1>Comments</h1>
