@@ -11,4 +11,3 @@ icon: p
   <img src="/images/wudu.jpg">
 </p>
 <p>A work for demo</p>
-

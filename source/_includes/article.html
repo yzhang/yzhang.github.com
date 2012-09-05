@@ -13,7 +13,7 @@
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
       {% include post/categories.html %}
     </p>
-    <div class="full">{{ content }}</div>
+    <div class="full">{{ page.content }}</div>
   {% endif %}
   <div class="clear"></div>
 </article>

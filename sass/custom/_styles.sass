@@ -38,6 +38,7 @@ body
       bottom: 0
       width: 6px
       border-width: 0px
+      z-index: 2
 
     aside
       width: 200px
@@ -130,11 +131,11 @@ body
       border-radius: 10px
       background: #F8F8F8 url('/images/noise.png?1344622001') top left
       box-sizing: border-box
+      -moz-box-sizing: border-box
     
     #articles
       margin: 0
       padding: 0
-      min-height: 500px
       border-left: 1px solid #333
       article
         padding: 0
@@ -231,7 +232,7 @@ body
         font-size: 12px
         color: #bbb
         margin-top: 10px
-        margin-bottom: 5px
+        margin-bottom: 10px
         margin-left: 20px
       .full
         margin-top: 0px
@@ -243,13 +244,12 @@ body
         font-weight: lighter
         font-size: 16px
         p
-          margin: 10px 0
+          margin-bottom: 20px
         img
           width: 400px
           border-radius: 10px
           box-sizing: border-box
           padding: 0
-          margin: 10px 0
 .clear
   clear: both
 .toggle-sidebar
