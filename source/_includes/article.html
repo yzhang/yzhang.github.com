@@ -1,19 +1,18 @@
 {% assign content = post.content %}
 <article>
   {% if index %}
-    <div class="icon"><img src="images/{{post.icon}}.png"></div>
     <div class="date">{{post.date_formatted}}</div>
     <div class="title"><a href="{{post.url}}">{{post.title}}</a></div>
     <div class="excerpt">{{ content | excerpt }}</div>
     <div class="clear"></div>
   {% else %}
     <div class="title">{{page.title}}</div>
+    <div class="full">{{ page.content }}</div>
     <p class="meta">
       {% include post/author.html %}
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
       {% include post/categories.html %}
     </p>
-    <div class="full">{{ page.content }}</div>
   {% endif %}
   <div class="clear"></div>
 </article>

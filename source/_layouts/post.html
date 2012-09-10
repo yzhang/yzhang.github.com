@@ -5,21 +5,23 @@ single: true
 
 <div id="post">
   {% include article.html %}
+  {% if false %}
   <footer>
     {% unless true || page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
     {% if false %}
-    <p class="meta">
+    <div class="meta">
       {% if page.previous.url %}
         <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
       {% endif %}
       {% if page.next.url %}
         <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
       {% endif %}
-    </p>
+    </div>
     {% endif %}
   </footer>
+  {% endif %}
 
   {% if site.disqus_short_name and page.comments == true %}
     <section>

@@ -1,9 +1,7 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body class="no-sidebar collapse-sidebar sidebar-footer">
-  <!--
-  <header role="banner">{% include header.html %}</header>
-  -->
+
   <div id="main">
     <div class="user-timeline-marker"></div>
     <aside>
@@ -31,7 +29,7 @@
         {{ content | expand_urls: root_url }}
         <div class="clear"></div>
       </div>
-      <footer class="layout">
+      <footer>
         This site is proudly powered by <a href="http://octopress.org">Octopress</a>. Theme design:  <a href="https://github.com/yzhang/yzhang.github.com">yuanyiz</a>
       </footer>
     </div>

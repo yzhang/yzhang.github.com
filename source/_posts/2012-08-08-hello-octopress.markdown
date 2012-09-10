@@ -6,6 +6,7 @@ comments: true
 categories: 
 icon: a
 ---
-
+<p>
 This is my first Octopress post, just for demo.
+</p>
 <!--more-->
