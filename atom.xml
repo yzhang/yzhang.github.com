@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Yuanyiz]]></title>
+  <title><![CDATA[YZ]]></title>
   <link href="http://yzhang.github.com/atom.xml" rel="self"/>
   <link href="http://yzhang.github.com/"/>
-  <updated>2012-09-11T11:38:27+08:00</updated>
+  <updated>2012-09-11T11:56:54+08:00</updated>
   <id>http://yzhang.github.com/</id>
   <author>
     <name><![CDATA[yuanyiz]]></name>
