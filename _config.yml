@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://yzhang.github.com
-title: Yuanyiz
+title: YZ
 subtitle: Yuanyiz's Octopress.
 author: yuanyiz
 simple_search: http://google.com/search
@@ -93,7 +93,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: "UA-146176-7"
 
 # Facebook Like
 facebook_like: false
