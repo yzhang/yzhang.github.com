@@ -4,7 +4,7 @@
   <title><![CDATA[Yuanyiz]]></title>
   <link href="http://yzhang.github.com/atom.xml" rel="self"/>
   <link href="http://yzhang.github.com/"/>
-  <updated>2012-09-11T11:18:22+08:00</updated>
+  <updated>2012-09-11T11:38:27+08:00</updated>
   <id>http://yzhang.github.com/</id>
   <author>
     <name><![CDATA[yuanyiz]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MockingBot]]></title>
+    <link href="http://yzhang.github.com/blog/2012/09/11/mockingbot/"/>
+    <updated>2012-09-11T11:34:00+08:00</updated>
+    <id>http://yzhang.github.com/blog/2012/09/11/mockingbot</id>
+    <content type="html"><![CDATA[<p>
+  <img src="http://yzhang.github.com/images/mockingbot.png">
+</p>
+
+
+<p>
+  MockingBot is an online iOS prototyping tool, launched on May 12.
+</p>
+
+
+<p>
+  <a href="https://mockingbot.com">https://mockingbot.com</a>
+</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello, Octopress!]]></title>
